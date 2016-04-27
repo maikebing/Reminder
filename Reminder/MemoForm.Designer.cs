@@ -55,7 +55,7 @@
             this.memoTitleList.ItemHeight = 12;
             this.memoTitleList.Location = new System.Drawing.Point(0, 0);
             this.memoTitleList.Name = "memoTitleList";
-            this.memoTitleList.Size = new System.Drawing.Size(300, 685);
+            this.memoTitleList.Size = new System.Drawing.Size(209, 482);
             this.memoTitleList.TabIndex = 0;
             this.memoTitleList.DoubleClick += new System.EventHandler(this.memoTitleList_DoubleClick);
             // 
@@ -82,13 +82,13 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(3, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(611, 685);
+            this.panel1.Size = new System.Drawing.Size(429, 482);
             this.panel1.TabIndex = 2;
             // 
             // submitChange
             // 
             this.submitChange.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.submitChange.Location = new System.Drawing.Point(533, 659);
+            this.submitChange.Location = new System.Drawing.Point(351, 456);
             this.submitChange.Name = "submitChange";
             this.submitChange.Size = new System.Drawing.Size(75, 23);
             this.submitChange.TabIndex = 4;
@@ -104,7 +104,7 @@
             this.textTextBox.Location = new System.Drawing.Point(49, 40);
             this.textTextBox.Multiline = true;
             this.textTextBox.Name = "textTextBox";
-            this.textTextBox.Size = new System.Drawing.Size(559, 613);
+            this.textTextBox.Size = new System.Drawing.Size(377, 410);
             this.textTextBox.TabIndex = 3;
             // 
             // titleTextBox
@@ -113,7 +113,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.titleTextBox.Location = new System.Drawing.Point(49, 3);
             this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(559, 19);
+            this.titleTextBox.Size = new System.Drawing.Size(377, 19);
             this.titleTextBox.TabIndex = 2;
             // 
             // splitContainer1
@@ -129,8 +129,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.panel1);
-            this.splitContainer1.Size = new System.Drawing.Size(945, 709);
-            this.splitContainer1.SplitterDistance = 315;
+            this.splitContainer1.Size = new System.Drawing.Size(672, 506);
+            this.splitContainer1.SplitterDistance = 224;
             this.splitContainer1.TabIndex = 3;
             // 
             // panel2
@@ -141,7 +141,7 @@
             this.panel2.Controls.Add(this.memoTitleList);
             this.panel2.Location = new System.Drawing.Point(12, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(300, 685);
+            this.panel2.Size = new System.Drawing.Size(209, 482);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -155,7 +155,8 @@
             // 
             // newMemo
             // 
-            this.newMemo.Location = new System.Drawing.Point(452, 659);
+            this.newMemo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.newMemo.Location = new System.Drawing.Point(270, 456);
             this.newMemo.Name = "newMemo";
             this.newMemo.Size = new System.Drawing.Size(75, 23);
             this.newMemo.TabIndex = 6;
@@ -165,7 +166,8 @@
             // 
             // purgeMemo
             // 
-            this.purgeMemo.Location = new System.Drawing.Point(49, 659);
+            this.purgeMemo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.purgeMemo.Location = new System.Drawing.Point(49, 456);
             this.purgeMemo.Name = "purgeMemo";
             this.purgeMemo.Size = new System.Drawing.Size(75, 23);
             this.purgeMemo.TabIndex = 7;
@@ -177,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 709);
+            this.ClientSize = new System.Drawing.Size(672, 506);
             this.Controls.Add(this.splitContainer1);
             this.Name = "MemoForm";
             this.Text = "ルマンド";
